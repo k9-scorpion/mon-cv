@@ -1,0 +1,154 @@
+@charset "UTF-8"
+/*  bordir zero interieur exterieur  mise en forme de balise html et body */
+html,body{
+    padding: 0;
+    margin: 0;
+    
+}
+.container-fluid{
+    padding: 0;
+}
+body{
+    font-family:serif;
+    
+}
+/* end*/
+/* mise en forme de la class header et ses contenu*/
+.header{
+    background-color:darkslateblue;
+    height: 70px;
+    line-height: 70px;
+}
+a, a:hover{
+    text-decoration: none;
+    
+}
+.logo{
+   color: beige;
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+.menu{
+    color: white;
+    float: right;
+    margin-right: 20px;
+    
+}
+.menu a{
+    color: floralwhite;
+    margin-right: 20px;
+}
+/* end header */
+/* debut du section de la banniere*/
+.banniere{
+    width: 100%;
+    max-width: 100%;
+}
+.image-banniere{
+    width: 100%;
+    max-width: 100%;
+    position:relative;
+    
+}
+.image-banniere img{
+    width: 100%;
+    max-width: 100%;
+}
+.texte-banniere{
+    position: absolute;
+    top:500px;
+    width: 100%;
+    text-align: center;
+}
+.texte-banniere h1{
+    color:#ffffff;
+    text-shadow: 1px 1px 20px #000000;
+}
+.texte-banniere .btn-custom{
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 80px;
+    
+}
+/* sur voler sa change la couleur de boutton une sur le bouton
+*/
+.texte-banniere .btn-custom:hover{
+    background-color: darkslategray;
+}
+/* a propos*/
+.barre{
+    
+    background-color:black;
+    box-shadow: none;
+    width: 10%;
+    margin-left:580px;
+    height: 10px;
+    border: none;
+}
+.apropos article{
+    margin-top: 5%
+}
+.apropos article h2{
+    text-align: center;
+    
+}
+#pro{
+    text-align: center;
+    padding-top:0%
+}
+article{
+    text-align: justify;
+}
+/* fin de apropos*/
+/* debut de monportefolio*/
+.portefolio{
+    background-color:cadetblue;
+    height: 300px;
+    display: block;
+}
+.portefolio h2{
+    text-align: center;
+}
+/* fin*/
+/*debut du footer*/
+.footer{
+    background-color:cadetblue;
+}
+#contact{
+    color: white;
+    text-align: center;
+}
+.formulaire{
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+input[type=text]{
+    width: 100%;
+}
+
+input[type=email]{
+    width: 60%;
+}
+label{
+    color:black;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: horizontal;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* fin du section*/
